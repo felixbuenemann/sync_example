@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.2'
 
-gem 'unicorn'
+gem 'thin'
 gem 'sqlite3'
 gem 'pusher'
 gem 'faye'
-gem 'thin'
+#gem 'faye-redis'
 gem 'oj'
 gem 'sync'
 gem 'devise', '~> 3.0.4'
